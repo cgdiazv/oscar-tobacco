@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram } from 'lucide-react';
+import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 import Image from 'next/image';
 
 export default function Footer() {
@@ -47,14 +47,14 @@ export default function Footer() {
         <div>
           <h4 className="text-gold font-serif mb-4 font-bold">Follow Us</h4>
           <div className="flex space-x-4 mb-6">
-            <a href="https://www.facebook.com/OscarValladaresTobaccoCo" target="_blank" rel="noopener noreferrer" className="text-gold hover:text-white">
-              <Facebook className="w-5 h-5" />
+            <a href="https://www.facebook.com/OscarValladaresTobaccoCo" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook" className="text-gold hover:text-white">
+              <FaFacebookF className="w-5 h-5" />
             </a>
-            <a href="https://twitter.com/OVCigars" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-gold hover:text-white">
-              <Twitter className="w-5 h-5" />
+            <a href="https://twitter.com/OVCigars" target="_blank" rel="noopener noreferrer" aria-label="Twitter" title="Twitter" className="text-gold hover:text-white">
+              <FaTwitter className="w-5 h-5" />
             </a>
-            <a href="https://www.instagram.com/ovcigars/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gold hover:text-white">
-              <Instagram className="w-5 h-5" />
+            <a href="https://www.instagram.com/ovcigars/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" className="text-gold hover:text-white">
+              <FaInstagram className="w-5 h-5" />
             </a>
           </div>
           <div className="border border-gold/30 p-3 text-[10px] uppercase">
