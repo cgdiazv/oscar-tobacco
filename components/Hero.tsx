@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image - Replace with your actual hero image file */}
       <div className="absolute inset-0">
         <Image 
-          src="/hero-background-3.webp" 
+          src="/hero-background-4.webp" 
           alt="The Art of Tobacco" 
           fill 
           priority 
