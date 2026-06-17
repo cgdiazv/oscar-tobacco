@@ -6,7 +6,9 @@
   --color-wood-medium: #2c241e;
   --color-gold: #c5a059;
   --color-gold-light: #d4b476;
+  --color-teal: #00b3a9;
   --shadow-gold: 0 4px 14px 0 rgba(197, 160, 89, 0.15);
+  --shadow-teal: 0 4px 14px 0 rgba(0, 179, 169, 0.15);
 }
 
 .hide-scrollbar {

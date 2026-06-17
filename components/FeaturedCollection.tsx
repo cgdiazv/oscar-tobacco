@@ -41,7 +41,7 @@ export default function FeaturedCollection() {
         <div ref={scrollRef} className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory scroll-smooth hide-scrollbar">
           {cigars.map((cigar) => (
             <div key={cigar.name} className="min-w-[280px] md:min-w-[320px] flex-shrink-0 snap-start group cursor-pointer">
-              <div className="relative bg-wood-medium h-80 mb-6 overflow-hidden border border-gold/10 group-hover:border-gold transition-colors rounded-3xl">
+              <div className="relative bg-wood-medium h-80 mb-6 overflow-hidden border border-gold/10 group-hover:border-gold transition-colors rounded-sm">
                 <Image
                   src={cigar.image}
                   alt={cigar.name}

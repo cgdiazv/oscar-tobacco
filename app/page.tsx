@@ -2,6 +2,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import FeatureGrid from '@/components/FeatureGrid';
 import FeaturedCollection from '@/components/FeaturedCollection';
+import Craftsmanship from '@/components/Craftsmanship'; // Added
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <FeatureGrid />
       <FeaturedCollection />
+      <Craftsmanship /> 
       <Footer />
     </main>
   );

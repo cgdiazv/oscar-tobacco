@@ -23,7 +23,7 @@ export default function Hero() {
         </h1>
         <Link 
           href="/shop" 
-          className="inline-block px-8 py-3 border border-gold bg-gold text-wood-dark font-bold hover:bg-transparent hover:text-gold transition-all duration-300 uppercase tracking-widest"
+          className="inline-block px-8 py-3 border rounded-sm border-gold bg-gold text-wood-dark font-bold hover:bg-transparent hover:text-gold transition-all duration-300 uppercase tracking-widest"
         >
           Discover Our Blends
         </Link>

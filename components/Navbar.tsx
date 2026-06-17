@@ -25,9 +25,8 @@ export default function Navbar() {
 
           {/* Desktop Menu */}
           <ul className="hidden md:flex items-center gap-8 text-gold font-medium">
-            <li><Link href="/about" className="hover:text-gold-light transition-colors">About</Link></li>
             <li><Link href="/cigars" className="hover:text-gold-light transition-colors">Cigars</Link></li>
-            <li><Link href="/shop" className="hover:text-gold-light transition-colors">Shop</Link></li>
+            <li><Link href="/about" className="hover:text-gold-light transition-colors">About</Link></li>
             <li><Link href="/reviews" className="hover:text-gold-light transition-colors">Reviews</Link></li>
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-gold-light transition-colors">
@@ -78,9 +77,8 @@ export default function Navbar() {
         </div>
 
         <ul className="flex flex-col p-6 gap-6 text-gold font-medium overflow-y-auto">
-          <li><Link href="/about" onClick={() => setIsOpen(false)} className="block text-lg hover:text-gold-light transition-colors">About</Link></li>
           <li><Link href="/cigars" onClick={() => setIsOpen(false)} className="block text-lg hover:text-gold-light transition-colors">Cigars</Link></li>
-          <li><Link href="/shop" onClick={() => setIsOpen(false)} className="block text-lg hover:text-gold-light transition-colors">Shop</Link></li>
+          <li><Link href="/about" onClick={() => setIsOpen(false)} className="block text-lg hover:text-gold-light transition-colors">About</Link></li>
           <li><Link href="/reviews" onClick={() => setIsOpen(false)} className="block text-lg hover:text-gold-light transition-colors">Reviews</Link></li>
           <li className="flex flex-col gap-3">
             <span className="text-gold/60 text-sm uppercase tracking-widest">Vendors</span>
